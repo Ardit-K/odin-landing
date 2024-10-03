@@ -1,8 +1,13 @@
 .flex-container {
     display: flex;
+    margin: 0;
 }
 .sec-1{
     background-color: #1F2937;
+    flex-direction: column;
+}
+.sec-3{
+    background-color: #E5E7EB;
 }
 .header-logo{
     font-size: 24px;
@@ -11,6 +16,16 @@
 .header-link{
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 900;
+}
+.hero-main{
+    font: 48px;
+    color: #F9FAF8;
+}
+.hero-img{
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
