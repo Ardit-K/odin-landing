@@ -14,6 +14,13 @@ body{
     background-color: #1F2937;
     flex-direction: column;
 }
+.sec-2{
+    flex-direction: column;
+    align-items: center;
+}
+.sec-3{
+    background-color: #E5E7EB;;
+}
 .header{
     flex-direction: row;
     justify-content: space-around;
@@ -76,4 +83,19 @@ body{
 }
 .hero-main, .hero-second{
     margin: 0;
+}
+
+.boxes{
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.box-group{
+    flex-direction: column;
+    align-items: center;
+}
+.box-square{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
