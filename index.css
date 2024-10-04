@@ -17,6 +17,7 @@ body{
 .sec-2{
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 .sec-3{
     background-color: #E5E7EB;;
@@ -87,15 +88,32 @@ body{
 
 .boxes{
     flex-direction: row;
-    justify-content: space-around;  
+    justify-content: space-around;
+    width: 80%;  
 }
 .box-group{
     flex-direction: column;
     align-items: center;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
 }
 .box-square{
-    width: 100px;
-    height: 100px;
+    width: 145px;
+    height: 150px;
     border: 2px solid blue;
     border-radius: 10px;
+}
+.box-text{
+    text-align: center;
+}
+.info-header-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info{
+    width: 100%;
+    justify-content: center;
 }
