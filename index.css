@@ -73,6 +73,8 @@ body{
     padding: 0;
     background-color: #3882F6;
     width: 100px;
+    height: 30px;
+    margin-top: 10px;
     color: #F9FAF8;
     font-weight: 900;
     box-sizing: border-box;
@@ -116,4 +118,23 @@ body{
 .info{
     width: 100%;
     justify-content: center;
+}
+
+.call-button {
+    padding: 0;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-weight: 900;
+    box-sizing: border-box;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+.call-button:hover{
+    background-color: #3882a3;
+}
+.inner{
+    background-color: #3882F6;
 }
