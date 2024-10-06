@@ -25,6 +25,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+.sec-4{
+    align-items: center;
+    justify-content: center;
+}
 .header{
     flex-direction: row;
     justify-content: space-around;
@@ -141,6 +145,7 @@ body{
 }
 
 .call-button {
+    flex: 1;
     padding: 0;
     background-color: #3882F6;
     width: 100px;
@@ -157,4 +162,8 @@ body{
 }
 .inner{
     background-color: #3882F6;
+    width: 75%;
+    height: 75%;
+    box-sizing: border-box;
+    flex-direction: column;
 }
