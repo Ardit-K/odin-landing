@@ -103,7 +103,7 @@ body{
 .box-group{
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 215px;
     margin-left: 10px;
     margin-right: 10px;
     box-sizing: border-box;
@@ -144,26 +144,39 @@ body{
     margin-right: 200px;
 }
 
+.call-group {
+    flex-direction: column;
+    margin-right: 500px;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.call-group h2, h3{
+    color: #F9FAF8;
+}
 .call-button {
-    flex: 1;
-    padding: 0;
+    padding: 10px;
     background-color: #3882F6;
-    width: 100px;
-    height: 30px;
-    margin-top: 10px;
     color: #F9FAF8;
     font-weight: 900;
     box-sizing: border-box;
     border: 2px solid #F9FAF8;
     border-radius: 5px;
 }
+
+.call-btn-cont {
+    align-self: center;
+}
+
 .call-button:hover{
     background-color: #3882a3;
 }
 .inner{
     background-color: #3882F6;
-    width: 75%;
-    height: 75%;
     box-sizing: border-box;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 30px;
+    border-radius: 5px;
+    border: 30px solid #3882F6;
+    
 }
